@@ -5,13 +5,13 @@
 #- 1 -> нет
 
 print("Введите цифру от 1 до 7, обозначающую день недели: ")
-Day = int(input())
-DaysOfWeek = ["Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота", "Воскресенье"]
+day = int(input())
+daysOfWeek = ["Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота", "Воскресенье"]
 if Day > 5 and Day < 8:
-    print(DaysOfWeek[Day - 1])
+    print(daysOfWeek[day - 1])
     print("Ура,это выходной день!")
 else:
-    print(DaysOfWeek[Day - 1])
+    print(daysOfWeek[day - 1])
     print("Это не выходной день(")
 
 
