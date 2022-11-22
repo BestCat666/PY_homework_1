@@ -5,7 +5,8 @@ for x in range(0,2):
         for z in range(0,2):
             if not(x and y and z) == (not x or not y or not z):
                 print("утверждение истинно")
-            else: print("утверждение ложно")
+            else: 
+                print("утверждение ложно")
 
 
 
